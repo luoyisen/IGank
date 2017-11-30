@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_gravity="end"
+    android:divider="@drawable/divider_main"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:showDividers="beginning|middle|end"
+    tools:showIn="@layout/activity_main">
+
+    <RadioButton
+        android:id="@+id/radiobutton_android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:button="@drawable/selector_android"
+        tools:button="@drawable/android_selected"
+        tools:checked="true" />
+
+    <RadioButton
+        android:id="@+id/radiobutton_ios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:button="@drawable/selector_android"
+        tools:button="@drawable/android" />
+
+    <RadioButton
+        android:id="@+id/radiobutton_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:button="@drawable/selector_android"
+        tools:button="@drawable/android" />
+
+    <RadioButton
+        android:id="@+id/radiobutton_wallpapger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:button="@drawable/selector_android"
+        tools:button="@drawable/android" />
+
+    <RadioButton
+        android:id="@+id/radiobutton_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:button="@drawable/selector_android"
+        tools:button="@drawable/android" />
+
+</RadioGroup>
